@@ -1,2 +1,12 @@
 # proyecto-agustin
-Proyec
+Proyecto final 
+
+##Motivación o problematica
+
+
+
+##Objetivo
+
+
+
+##Solución
