@@ -1,18 +1,15 @@
 # proyecto-agustin
 Proyecto final 
 
-#Motivación o problemática
+# Motivación o problemática
 
-
-
-
-//Culturizar
+ ## Culturizar
 1.-Concientizar la población con respecto a la lectura, la difusión cultural 
 para informar al público en general de la importancia de leer, tener centros de acopio para 
 donación de libros y lugares donde adquirirlos.
 
 
-#Objetivo
+# Objetivo
 
 
 1.- Provocar un impacto social y cultural al tener al alcance un libro, ayudar a tener mayor distribución del mismo, 
@@ -21,7 +18,7 @@ comunidades rurales. Además de ayudar a las personas que se dedican a vender li
 puedan lograr mayores ingresos y su trabajo crezca.
 
 
-#Solución
+# Solución
 
 
 1.- Realizar una página la cual exista un mapeo de las zonas en donde las personas venden o distribuyen libros para que vendan más, 
