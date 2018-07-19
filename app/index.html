@@ -5,16 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Unknown</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 
 <body>
-    <h1>Unknown Letters</h1>
-    <div class="container">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <div ng-app="appHttp">
+        <!-- <p><a href="#/!">Main</a></p>
 
+        <a href="#!red">Red</a>
+        <a href="#!green">Green</a>
+        <a href="#!blue">Blue</a>
+        <a href="#!prueba">Prueba</a> -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Letras Prohibidas </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#/!">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#!lugares">Lugares</a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#!quienes">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#!contacto">Contacto</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <section style="display:flex">
+            <aside class="col-md-4">
+                <h2>Categorías</h2>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Literatura</a>
+                    <a href="#" class="list-group-item">Ciencias Sociales</a>
+                    <a href="#" class="list-group-item">Ciencias Naturales</a>
+                    <a href="#" class="list-group-item">Derecho</a>
+                    <a href="#" class="list-group-item">Filosofía</a>
+                    <a href="#" class="list-group-item">Infantiles</a>
+                    <a href="#" class="list-group-item">2Da. Mano</a>
+                    <a href="#" class="list-group-item">Nuevos lanzamientos</a>
+                    <a href="#" class="list-group-item">Antiguos</a>
+                </div>
+
+            </aside>
+            <div ng-view></div>
+        </section>
+        <!-- <footer>
+            <div class="col-md-12">
+                <ul class="social-network social-circle">
+                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </footer> -->
     </div>
-
+    <script src="./router-module.js"></script>
+    <script src="./router-config.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>
