@@ -8,6 +8,9 @@ app.config(function($routeProvider) {
         })
         .when("/quienes", {
             templateUrl: "./quienes.html"
+        }) 
+        .when("/quienes", {
+            templateUrl: "./quienes.html"
         })
         .when("/contacto", {
             templateUrl: "./contacto.html"
